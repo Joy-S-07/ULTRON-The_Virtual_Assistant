@@ -19,8 +19,8 @@ news_api ='NEWS_API' # News API
 
 # Set up Spotify API access
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="76a6a4a2a2b44ed2a161f21b364981b8",
-    client_secret="af385b01289047a6bb5ad720c2b952ae"
+    client_id="CLIENT_ID",
+    client_secret="CLIENT_SECRET"
 ))
 
 # Initializing Text-to-Speech
